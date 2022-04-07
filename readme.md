@@ -3,7 +3,8 @@
 
 https://www.nuget.org/packages/LeanArchitecture.Dotnet.Templates.Project/
 
-## Lean Architecture
+
+## Lean Architecture Strutucture
 
 ```
 ├───class-xunit-lib
@@ -34,7 +35,7 @@ https://www.nuget.org/packages/LeanArchitecture.Dotnet.Templates.Project/
             LeanArchitecture.Project.Tests.csproj
 ```
 
-## Clean Architecture
+## Clean Architecture Structure
 
 ```
 │   azure-pipelines.yml
@@ -62,6 +63,28 @@ https://www.nuget.org/packages/LeanArchitecture.Dotnet.Templates.Project/
     └───Presentation
 
 ```
+
+# Test Projects Dependencies
+
+- Microsoft.NET.Test.Sdk, Version: 17.1.0
+- coverlet.collector, Version: 3.1.2
+- coverlet.msbuild, Version: 3.1.2
+- Moq, Version: 4.17.2
+- Shouldly, Version: 4.0.3
+- xunit, Version: 2.4.1
+- xunit.runner.visualstudio, Version: 2.4.3
+
+# Azure Devops Pipeline
+
+- Checkout
+- Nuget Restore
+- Build
+- Test with Code Coverage
+- Install ReportGenerator tool (version 5.0.4)
+- Generate Coverage Reports
+- Publish Test Results in Azure Devops.
+- Publish Code Coverage Results in Azure Devops.
+- Publish Artifacts in Azure Devops.
 
 # Usage
 
@@ -111,6 +134,10 @@ $> cd [Solution Name Location]
 $> dotnet sln add .\tests\[Project Name].Tests\[Project Name].Tests.csproj --solution-file tests\[Project Name].Tests
 ```
 
-# Credits
+# Contributors
+
+- @masterzdran
+
+# Attribution
 
 <a href="https://www.flaticon.com/free-icons/digital-book" title="digital book icons">Digital book icons created by Freepik - Flaticon</a>
