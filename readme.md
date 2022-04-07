@@ -1,4 +1,7 @@
 # ![dotnet-new Templates](./icon.64.png "dotnet-new templates") dotnet-new templates
+# Download
+
+https://www.nuget.org/packages/LeanArchitecture.Dotnet.Templates.Project/
 
 ## Lean Architecture
 
