@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Nuno Cancelo",
+    "classifications": [ "Lean Architecure", "Class Library", "Tests" ],
+    "identity": "LeanArchitecture.ClassWithTestsLibrary",
+    "name": "Lean Architecture templates: Class Library project",
+    "shortName": "mz-lean-architecture-class-xunit-lib",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "LeanArchitecture.Project",
+    "preferNameDirectory": true
+}
