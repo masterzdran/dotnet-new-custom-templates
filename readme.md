@@ -145,10 +145,10 @@ $> dotnet sln add .\src\Explorer.Library\Explorer.Library.csproj --solution-fold
 $> dotnet sln add .\tests\Explorer.Library.Tests\Explorer.Library.Tests.csproj --solution-folder tests\Explorer.Library.Tests
 ```
 
-# Contributers
+# Contributors
 
 - @masterzdran
 
-# Credits
+# Attribution
 
 <a href="https://www.flaticon.com/free-icons/digital-book" title="digital book icons">Digital book icons created by Freepik - Flaticon</a>

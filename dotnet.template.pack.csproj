@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-      <Content Include="dotnet-template\readme.md">
+      <Content Include="readme.md">
         <Pack>true</Pack>
         <PackagePath>readme.md</PackagePath>
       </Content>

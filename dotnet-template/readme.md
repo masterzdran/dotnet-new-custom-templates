@@ -1,4 +1,8 @@
-# dotnet-new templates
+# ![dotnet-new Templates](./icon.64.png "dotnet-new templates") dotnet-new templates
+
+# Download
+
+https://www.nuget.org/packages/LeanArchitecture.Dotnet.Templates.Project/
 
 ## Lean Architecture Strutucture
 
@@ -86,13 +90,13 @@
 
 ## Create new solution:
 
-**Lean Solution Template**
+**Clean Solution Template**
 
 ```
 dotnet new mz-clean-architecture-sln -n [Solution Name] -o [Solution Name Location]
 ```
 
-**Clean Solution Template**
+**Lean Solution Template**
 
 ```
 dotnet new mz-lean-architecture-sln -n [Solution Name] -o [Solution Name Location]
@@ -128,6 +132,17 @@ $> dotnet sln add .\src\[Project Name]\[Project Name].csproj --solution-file tes
 ```
 $> cd [Solution Name Location]
 $> dotnet sln add .\tests\[Project Name].Tests\[Project Name].Tests.csproj --solution-file tests\[Project Name].Tests
+```
+
+# Usage Example
+
+Creating a new solution named "Explorer":
+
+```
+$> dotnet new mz-lean-architecture-sln -n ExplorerSolution -o .
+$> dotnet new mz-lean-architecture-class-xunit-lib -n Explorer.Library -o .
+$> dotnet sln add .\src\Explorer.Library\Explorer.Library.csproj --solution-folder src\Explorer.Library
+$> dotnet sln add .\tests\Explorer.Library.Tests\Explorer.Library.Tests.csproj --solution-folder tests\Explorer.Library.Tests
 ```
 
 # Contributors
